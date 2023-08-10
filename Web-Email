@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+    <title> E-mail</title>
+       <meta charset="utf-8"/>
+       <meta name="viewpor" content="width=devide-width, initial=scale=1">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+       <script src="https://mxcdn.bootstrapcdn.com/bootstrap.min.js"></script>
+
+            <style>
+                
+            .centro-topo{
+
+                width: 500px; 
+                margin-left: auto;
+                margin-right: auto;
+
+
+            }    
+            .centro{
+
+                margin-left: auto;
+                margin-right: auto;
+                vertical-align:text-bottom;          
+                padding: 5px;
+                border: 1px solid #ccc;
+                border-radius: 5px;                
+                text-align: center; 
+                width: 400px;
+                height: 50px;
+                line-height: 50px;
+                
+            }
+            .corpo {              
+                padding: 0;
+                background-color: #f2f2f2;
+            }
+
+
+            .topo{
+
+                background-color: #fff;
+                padding: 10px;
+                border-bottom: 1px solid #ccc;
+                display: flex;
+                justify-content: space-between;
+                
+            }
+
+
+
+            .logo {
+                text-align: center; 
+                font-size: 24px;
+                font-weight: bold;
+            }
+            
+            .busca {
+                
+                text-align: center; 
+                padding: 5px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                width: 300px;
+            }
+            
+            .pesquisar {
+                text-align: center; 
+                background-color: #4285f4;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .left{
+
+                background-color: #11bad8;
+                margin-left: 0;
+                margin-right: auto;
+                                
+                padding: 5px;
+                border: 1px solid #ccc;
+                border-radius: 5px;                
+                text-align: center; 
+                width: 400px;
+                height: 50px;
+                line-height: 50px;
+            }
+
+
+
+  </style>
+
+
+</head>
+
+<body>
+    <div class="conteiner">
+  
+        <header>
+            
+                <h1><div class="logo">Email</div></h1>
+                <div>
+                    <div class="centro-topo">
+                <input  type="text" class="busca" placeholder="Pesquisar">
+                <button class="pesquisar">Escrever</button>
+                    </div>
+                </div>  
+            
+        </header>
+
+        <div class="row">
+            
+            <button class="centro corpo" > Principal </button>
+            <button class="centro corpo" > Promoções </button>
+            <button class="centro corpo" > Social </button>
+            <button class="centro corpo" > Atualizações </button>
+
+        </div>
+
+        <div class="left">Caixa de Entrada</div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                <div class="d-flex justify-content-between align-items-center">
+                    <span class="font-weight-bold">Remetente 1</span>
+                    <span class="text-muted">10:00 AM</span>
+                </div>
+                <div>Assunto do Email 1</div>
+                </li>
+                <li class="list-group-item">
+                <div class="d-flex justify-content-between align-items-center">
+                    <span class="font-weight-bold">Remetente 2</span>
+                    <span class="text-muted">11:30 AM</span>
+                </div>
+                <div>Assunto do Email 2</div>
+                </li>
+            
+            </ul>
+        <div class="left">Favoritos</div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                <div class="d-flex justify-content-between align-items-center">
+                    <span class="font-weight-bold">Remetente 1</span>
+                    <span class="text-muted">10:00 AM</span>
+                </div>
+                <div>Assunto do Email 1</div>
+                </li>
+                <li class="list-group-item">
+                <div class="d-flex justify-content-between align-items-center">
+                    <span class="font-weight-bold">Remetente 2</span>
+                    <span class="text-muted">11:30 AM</span>
+                </div>
+                <div>Assunto do Email 2</div>
+                </li>
+            </ul>  
+        <div class="left">Arquivados</div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                <div class="d-flex justify-content-between align-items-center">
+                    <span class="font-weight-bold">Remetente 1</span>
+                    <span class="text-muted">10:00 AM</span>
+                </div>
+                <div>Assunto do Email 1</div>
+                </li>
+                <li class="list-group-item">
+                <div class="d-flex justify-content-between align-items-center">
+                    <span class="font-weight-bold">Remetente 2</span>
+                    <span class="text-muted">11:30 AM</span>
+                </div>
+                <div>Assunto do Email 2</div>
+                </li>
+            
+            </ul>
+        <div class="left">Enviados</div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                <div class="d-flex justify-content-between align-items-center">
+                    <span class="font-weight-bold">Remetente 1</span>
+                    <span class="text-muted">10:00 AM</span>
+                </div>
+                <div>Assunto do Email 1</div>
+                </li>
+                <li class="list-group-item">
+                <div class="d-flex justify-content-between align-items-center">
+                    <span class="font-weight-bold">Remetente 2</span>
+                    <span class="text-muted">11:30 AM</span>
+                </div>
+                <div>Assunto do Email 2</div>
+                </li>
+            
+            </ul>
+        <div class="left">Rascunho</div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                <div class="d-flex justify-content-between align-items-center">
+                    <span class="font-weight-bold">Remetente 1</span>
+                    <span class="text-muted">10:00 AM</span>
+                </div>
+                <div>Assunto do Email 1</div>
+                </li>
+                <li class="list-group-item">
+                <div class="d-flex justify-content-between align-items-center">
+                    <span class="font-weight-bold">Remetente 2</span>
+                    <span class="text-muted">11:30 AM</span>
+                </div>
+                <div>Assunto do Email 2</div>
+                </li>
+            
+            </ul>
+        <div class="left">Spam</div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                <div class="d-flex justify-content-between align-items-center">
+                    <span class="font-weight-bold">Remetente 1</span>
+                    <span class="text-muted">10:00 AM</span>
+                </div>
+                <div>Assunto do Email 1</div>
+                </li>
+                <li class="list-group-item">
+                <div class="d-flex justify-content-between align-items-center">
+                    <span class="font-weight-bold">Remetente 2</span>
+                    <span class="text-muted">11:30 AM</span>
+                </div>
+                <div>Assunto do Email 2</div>
+                </li>
+            
+            </ul>
+
+            
+       
+            <div class="left">Lixeira</div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="font-weight-bold">Remetente 1</span>
+                        <span class="text-muted">10:00 AM</span>
+                    </div>
+                    <div>Assunto do Email 1</div>
+                    </li>
+                    <li class="list-group-item">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="font-weight-bold">Remetente 2</span>
+                        <span class="text-muted">11:30 AM</span>
+                    </div>
+                    <div>Assunto do Email 2</div>
+                    </li>      
+                </ul>
+              
+          
+        </div>
+
+
+
+
+    </div>    
+</body>
+</html>
